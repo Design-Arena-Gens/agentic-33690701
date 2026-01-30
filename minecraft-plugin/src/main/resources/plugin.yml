@@ -1,0 +1,14 @@
+name: AgenticHelper
+main: com.agentic.plugin.AgenticPlugin
+version: 1.0.0
+api-version: "1.20"
+authors:
+  - CodexAgent
+commands:
+  agentgift:
+    description: Получить ежедневный подарок от сервера.
+    usage: /<command>
+permissions:
+  agentichelper.gift:
+    description: Позволяет получать ежедневный подарок.
+    default: true
